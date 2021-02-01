@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+  body{
+    background-image: url('https://wallpaperaccess.com/full/732257.jpg') ;
+    position:absolute;
+    top:30%;
+    bottom:50%;
+    transform:translate(25%,-50%);
+    
+  }
+  #form{
+    background-color:white;
+    padding:5rem;
+    height:450px;
+    
+  }
+  p{
+    padding-bottom:1rem;
+    font-size: 20px;
+    font-weight:bold;
+    
+  }
+  #number{
+    margin-left:3rem;
+    margin-bottom:2rem;
+    border:2px solid black;
+    padding:5px;
+     font-weight:bold;
+  }
+  #temp_diff{
+    margin-left:1rem;
+    margin-bottom:1rem;
+    border:2px solid black;
+    padding:5px;
+     font-weight:bold;
+  }
+  #submit{
+    margin-left:11rem;
+    background-color: black;
+    border-radius: 10px;
+    margin-bottom: 3rem; 
+    padding: 0.5rem;
+    color: white;
+    font-size:18px;
+    font-weight: bold;
+    transform: translate(45%, 20%);
+    outline: none;
+  }
+  #submit:hover {
+    box-shadow: 2px 2px 2px 2px black;
+    cursor: pointer;
+  }
+  span{
+    color:red;
+    font-weight:bold;
+    font-size:2rem;
+    margin-left:9rem;
+    
+  }
+  @media only screen and (min-width: 1077px) {
+    body {
+        position:absolute;
+        top:30%;
+        bottom:50%;
+        transform:translate(70%,-50%);
+    }
+  }

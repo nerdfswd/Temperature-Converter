@@ -1,0 +1,22 @@
+<html>
+   <head><title>Temperature Converter App</title>
+   <link href="styles.css" rel="stylesheet"/></head>
+<body>
+    <form id="form" onsubmit="calculateTemp(); return false">
+      <label id="temp" for="temp"
+             ><p>Please enter the Temperature you would like to convert..</p></label
+      >
+      <br /><input type="number" id="number" />
+
+      <label for="option"></label>
+      <select id="temp_diff" id="temp_diff">
+        <option value="cel">Celsius</option>
+        <option value="fah">Fahrenheit</option>
+      </select>
+      <br />
+      <input type="submit" id="submit"/><br />
+      <span id="resultValue"></span>
+    </form>
+  <script src="script.js"></script>  
+  </body>
+</html>
